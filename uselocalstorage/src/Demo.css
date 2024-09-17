@@ -1,0 +1,58 @@
+/* Общий стиль для контейнера */
+.demo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+}
+
+/* Стиль для текста токена */
+.demo-token {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Стиль для поля ввода */
+.demo-input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+	box-sizing: border-box;
+}
+
+/* Стиль для кнопок */
+.demo-button {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.demo-button:hover {
+  background-color: #0056b3;
+}
+
+/* Стиль для кнопки удаления токена */
+.demo-button.delete {
+  background-color: #dc3545;
+}
+
+.demo-button.delete:hover {
+  background-color: #c82333;
+}
