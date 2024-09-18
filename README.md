@@ -28,4 +28,6 @@ Tracks the current width and height of the browser window (viewport) and updates
 
 Custom React hook, which tracks the window scroll position and allows you to programmatically scroll the window to specific positions.
 
+### `useToggle`
 
+Custom React hook `useToggle`, which allows toggling between values in an array or between `true` and `false` by default. The hook can also set a specific value directly when needed.
