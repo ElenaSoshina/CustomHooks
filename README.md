@@ -24,5 +24,8 @@ This project demonstrates how to use a custom React hook, `useLocalStorage`, to 
 
 Tracks the current width and height of the browser window (viewport) and updates the values whenever the window is resized.
 
+### `useWindowScroll` 
+
+Custom React hook, which tracks the window scroll position and allows you to programmatically scroll the window to specific positions.
 
 
